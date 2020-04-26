@@ -3,6 +3,8 @@ import './App.css';
 import "./components/booklist.css";
 import "./components/autocomplete.css";
 
+import Header from './components/Header';
+
 import { Autocomplete } from './components/autocomplete.js';
 import { BooksList } from './components/booksList.js';
 import { covnert_to_model } from './components/search_modules/data/data_converter.js';
@@ -50,7 +52,8 @@ export default class App extends React.Component {
   render (){
     return (
   
-		<div className="container">
+    <div className="container">
+    <Header className="header" />
 			<div className="searchContainer" >
 			<Autocomplete	
 			books = {this.state.books}
