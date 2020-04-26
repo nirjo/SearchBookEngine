@@ -13,7 +13,7 @@ export class Book extends React.Component{
 		 <p className="title">{this.props.book.title}</p>
 		
         <p className="summary_text">{this.props.book.summary}</p>
-        <p className="author_text">{this.props.book.author}</p>
+        <p className="italic">{this.props.book.author}</p>
   </div>
   );
 }

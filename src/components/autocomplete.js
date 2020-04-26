@@ -73,7 +73,7 @@ export class Autocomplete extends Component {
 
   render() {
 	    return (
-			  <React.Fragment>
+			  <form>
 					<div className="autocomplete" >
 						<input
 						  id="input_text"
@@ -93,7 +93,7 @@ export class Autocomplete extends Component {
 								selectedBook = {this.state.selectedBook}
 								/>
 					 </div>
-			  </React.Fragment>
+			  </form>
     );
 	
   }

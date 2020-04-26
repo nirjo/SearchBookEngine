@@ -8,7 +8,7 @@
 }
 .item {
 	 
-   background-color: #f1f1f1;
+   /* background-color: #f1f1f1; */
 
   min-width:45%;
   margin: 10px;
@@ -30,7 +30,7 @@
   font-size: 1.25rem;
 }
 
-.author_text ,.summary_text {
+.summary_text {
  
   font-size: 0.875rem;
   line-height: 1.5;
@@ -38,3 +38,14 @@
    flex: 1 1 auto;
    
 }
+
+/* font italics */
+p.italic {
+  font-style: italic;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+   flex: 1 1 auto;
+
+
+} 
