@@ -47,21 +47,14 @@ export default class App extends React.Component {
        });
   }
  
- 
-
-
   render (){
     return (
   
 		<div className="container">
 			<div className="searchContainer" >
-
-
-			<Autocomplete
-			
+			<Autocomplete	
 			books = {this.state.books}
 			addSelectedBook = {this.addSelectedBook}
-
 			/>
 			
 
